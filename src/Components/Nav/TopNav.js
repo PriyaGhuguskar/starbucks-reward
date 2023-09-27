@@ -32,7 +32,8 @@ const TopNav = () => {
                             </a>
                         </div>
                     </div>
-                    <div className="hidden md:flex lg:items-center grow">
+                    <div className=" flex justify-center items-center md:flex lg:items-center grow" style={{ height: '83px', alignItems: 'center' }}>
+
                         <MenuOption />
                         <div className="rightPart flex items-center ml-auto gap-x-[4.8rem] shrink-0 text-[1.4rem]">
                             <a href="/" className='flex gap-x-4 items-center hover:text-green'>
